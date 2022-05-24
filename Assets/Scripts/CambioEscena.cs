@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class CambioEscena : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other){
-        if(other.tag == "Player"){
-            SceneManager.LoadScene("battle");
-        }
+            if(other.tag == "Player"){
+                SceneManager.LoadScene("battle");
+            }
     }
 }
